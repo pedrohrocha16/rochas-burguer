@@ -1,0 +1,38 @@
+.p-4{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    height: 195px;
+    width: 200px;
+}
+
+
+
+
+
+/* responsividade */
+@media (min-width: 320px){
+    .d-block{
+        height: 50vh;
+    }
+
+}
+@media (min-width: 768px){
+    .d-block{
+        height: 65vh;
+    }
+    #logo{
+        display: flex;
+
+    }
+
+}
+@media (min-width: 1024px){
+    .d-block{
+        height: 80vh;
+    }
+}
+
