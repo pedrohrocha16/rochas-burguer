@@ -1,38 +1,37 @@
-.p-4{
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-}
-
 .logo {
     height: 195px;
     width: 200px;
 }
-
+.redes-sociais{
+    margin-top: 2rem;
+    height: 50px;
+    width: 50px;
+}
 
 
 
 
 /* responsividade */
 @media (min-width: 320px){
-    .d-block{
-        height: 50vh;
-    }
-
-}
-@media (min-width: 768px){
-    .d-block{
-        height: 65vh;
-    }
-    #logo{
+    .p-4{
+        align-content: stretch;
         display: flex;
-
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
+}
 
+@media (min-width: 768px){
+    .p-4{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
 }
 @media (min-width: 1024px){
-    .d-block{
-        height: 80vh;
-    }
+   
 }
 
