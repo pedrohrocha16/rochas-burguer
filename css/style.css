@@ -13,14 +13,16 @@
 }
 .descricao {
     align-items: center;
+    background: #0000004d;
     color: white;
     display: flex;
     flex-direction: column;
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1rem;
+    height: 111px;
     position: relative;
     text-shadow: 2px -2px 5px rgb(0, 0, 0);
-    top: -12rem;
+    top: -7rem;
 }
 
 
