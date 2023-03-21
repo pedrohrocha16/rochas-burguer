@@ -1,3 +1,6 @@
+body {
+    font-family: 'Open Sans', sans-serif;    
+}
 .logo {
     height: 195px;
     width: 200px;
@@ -8,7 +11,7 @@
     width: 50px;
 }
 .d-block {
-    height: 300px;
+    height: 250px;
     width: 100%;
 }
 .descricao {
@@ -18,15 +21,12 @@
     display: flex;
     flex-direction: column;
     font-family: 'Open Sans', sans-serif;
-    font-size: 1rem;
+    font-size: 1.5rem;
     height: 111px;
     position: relative;
     text-shadow: 2px -2px 5px rgb(0, 0, 0);
     top: -7rem;
 }
-
-
-
 
 
 
@@ -38,24 +38,29 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        height: 80vh;
+        height: 81vh;
         justify-content: space-around;
     }
 }
 
 @media (min-width: 768px){
     .p-4{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-content: center;
         align-items: center;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
     }
     .d-block {
-        height: 600px;
+        height: 485px;
+    }
+    .descricao {
+        font-size: 4.5rem;
+        top: -20rem;
     }
 }
 @media (min-width: 1024px){
-   
+    .d-block {
+        height: 580px;
+    }
 }
 
