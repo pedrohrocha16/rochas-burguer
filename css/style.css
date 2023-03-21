@@ -15,7 +15,7 @@ body {
     width: 100%;
 }
 .carousel-fade .carousel-item {
-    height: 270px;
+    height: 295px;
 }
 .descricao {
     align-items: center;
@@ -32,8 +32,6 @@ body {
 }
 
 
-
-
 /* responsividade */
 @media (min-width: 320px){
     .p-4{
@@ -46,13 +44,6 @@ body {
     }
 }
 
-@media (min-width: 576){
-    .card{
-        margin-right: 0;
-        margin-left: 0;
-    }
-}
-
 @media (min-width: 768px){
     .p-4{
         align-items: center;
@@ -61,11 +52,16 @@ body {
         flex-direction: column;
     }
     .d-block {
-        height: 485px;
+        height: 365px;
     }
     .descricao {
+        background: #00000091;
         font-size: 4.5rem;
+        height: 270px;
         top: -20rem;
+    }
+    .carousel-fade .carousel-item {
+        height: 370px;
     }
 }
 
