@@ -69,5 +69,11 @@ body {
     .d-block {
         height: 580px;
     }
+    .carousel-fade .carousel-item {
+        height: 600px;
+    }
+    .descricao{
+        top: -30rem;
+    }
 }
 
