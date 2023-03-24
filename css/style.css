@@ -1,4 +1,5 @@
-body {
+#body {
+    background-color: #4c0000;
     font-family: 'Open Sans', sans-serif;    
 }
 .logo {
@@ -42,6 +43,11 @@ body {
         height: 81vh;
         justify-content: space-around;
     }
+    .card {
+        margin-bottom: 3rem; 
+        margin-left: 1.75rem;
+        margin-right: 1.75rem;
+    }
 }
 
 @media (min-width: 768px){
@@ -62,6 +68,13 @@ body {
     }
     .carousel-fade .carousel-item {
         height: 370px;
+    }
+    .card-deck{
+        margin-bottom: 2rem;
+        margin-top: 2rem;       
+    }
+    .card {
+        height: 435px;
     }
 }
 
