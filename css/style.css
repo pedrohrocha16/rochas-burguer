@@ -18,6 +18,15 @@
 .carousel-fade .carousel-item {
     height: 295px;
 }
+.card-title{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+.card-text{
+    font-style: italic;
+    text-align: center;
+}
 .descricao {
     align-items: center;
     background: #0000004d;
