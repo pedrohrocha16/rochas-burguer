@@ -33,6 +33,8 @@
 }
 
 
+
+
 /* responsividade */
 @media (min-width: 320px){
     .p-4{
@@ -81,13 +83,19 @@
 
 @media (min-width: 1024px){
     .d-block {
-        height: 580px;
+        height: 535px;
+    }
+    .p-4{
+        height: 28rem;
     }
     .carousel-fade .carousel-item {
         height: 600px;
     }
     .descricao{
-        top: -30rem;
+        top: -13rem;
+    }
+    .descricao h6 {
+        font-size: 1.5rem;
     }
 }
 
