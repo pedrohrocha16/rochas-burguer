@@ -40,6 +40,20 @@
     text-shadow: 2px -2px 5px rgb(0, 0, 0);
     top: -10rem;
 }
+.controles {
+    display: flex;
+    justify-content: center;
+}
+.control {
+    background: #760505;
+    color: white;
+    width: 35px;
+}
+#quantidade{
+    text-align: center;
+    width: 45px;
+}
+
 
 
 
@@ -82,11 +96,20 @@
         height: 370px;
     }
     .card-deck{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0;
+        margin-right: 0;
         margin-bottom: 2rem;
-        margin-top: 2rem;       
+        margin-top: 2rem;
     }
     .card {
-        height: 435px;
+        height: 500px;
+    }
+    #card-body {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
     }
 }
 
