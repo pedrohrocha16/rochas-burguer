@@ -47,11 +47,17 @@
 .control {
     background: #760505;
     border: none;
+    border-radius: 8px;
     color: white;
     text-align: center;
     width: 35px;
 }
 #quantidade{
+    background-color: wheat;
+    border: none;
+    border-radius: 8px;
+    color: black;
+    font-weight: 300;
     text-align: center;
     width: 45px;
 }
