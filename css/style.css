@@ -65,6 +65,31 @@
     text-align: center;
     width: 45px;
 }
+.carrinho-compras{
+    background: #b1b1b1;
+    display: flex;
+    flex-direction: column;
+    height: 25rem;
+    justify-content: center;
+}
+#carrinho-compras{
+    height: 50px;
+    width: 50px;
+}
+#img-descr-prod{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.img-prod{
+    width: 80px;
+}
+.remove-btn{
+    height: 25px;
+    width: 25px;
+}
+
+
 
 /* responsividade */
 @media (min-width: 320px){
