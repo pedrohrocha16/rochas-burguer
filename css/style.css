@@ -70,6 +70,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-top: 2.5rem;
     text-align: center;
 }
 #carrinho-compras{
@@ -128,14 +129,21 @@
         margin-left: 0.5rem;
         margin-right: 0.5rem;
         margin-top: 2rem;
-        margin-bottom: 5rem;
+        margin-bottom: 3rem;
     }
     .carrinho-compras{
         border-radius: 25px;
         margin: 0 0.675rem 0 0.675rem;
     }
 }
+@media (min-width: 576px){
+    #card-deck{
+        display: grid;
+        grid-template-columns: 250px 250px;
+        justify-content: center;
+    }
 
+}
 @media (min-width: 710px){
     .p-4{
         align-items: center;
@@ -194,9 +202,6 @@
     #card-deck{
         display: grid;
         grid-template-columns: 300px 300px 300px;
-    }
-    .carrinho-compras{
-        margin: 0;
     }
 }
 @media (min-width: 1440px){
