@@ -66,11 +66,12 @@
     width: 45px;
 }
 .carrinho-compras{
-    background: #b1b1b1;
+    background: #c1c1c1;
     display: flex;
     flex-direction: column;
     height: 25rem;
     justify-content: center;
+    text-align: center;
 }
 #carrinho-compras{
     height: 50px;
@@ -110,6 +111,7 @@
         margin-left: 0;
         margin-right: 0;
         margin-top: 2rem;
+        margin-bottom: 5rem;
     }
     
 }
