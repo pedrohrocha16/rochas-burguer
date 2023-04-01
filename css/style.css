@@ -66,9 +66,6 @@
     width: 45px;
 }
 
-
-
-
 /* responsividade */
 @media (min-width: 320px){
     .p-4{
@@ -89,6 +86,7 @@
         margin-right: 0;
         margin-top: 2rem;
     }
+    
 }
 
 @media (min-width: 710px){
@@ -122,6 +120,7 @@
         display: flex;
         flex-direction: column;
     }
+    
 }
 
 @media (min-width: 1024px){
@@ -145,6 +144,7 @@
         grid-template-columns: 300px 300px 300px;
         margin-left: 5vw;
     }
+   
 }
 @media (min-width: 1440px){
     #card-deck{
