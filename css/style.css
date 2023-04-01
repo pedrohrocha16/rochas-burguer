@@ -69,7 +69,6 @@
     background: #c1c1c1;
     display: flex;
     flex-direction: column;
-    height: 35rem;
     justify-content: center;
     text-align: center;
 }
