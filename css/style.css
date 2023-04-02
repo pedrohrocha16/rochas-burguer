@@ -40,31 +40,6 @@
     text-shadow: 2px -2px 5px rgb(0, 0, 0);
     top: -10rem;
 }
-.controles {
-    display: flex;
-    justify-content: center;
-    margin-top: 2rem;
-}
-.control {
-    background: #760505;
-    border: none;
-    border-radius: 8px;
-    color: white;
-    cursor: pointer;
-    font-size: 20px;
-    text-align: center;
-    width: 35px;
-}
-#quantidade{
-    background-color: wheat;
-    border: none;
-    border-radius: 8px;
-    color: black;
-    font-size: 18px;
-    font-weight: 300;
-    text-align: center;
-    width: 45px;
-}
 .carrinho-compras{
     background: #c1c1c1;
     display: flex;
@@ -134,6 +109,19 @@
     .carrinho-compras{
         border-radius: 25px;
         margin: 0 0.675rem 0 0.675rem;
+    }
+    .carrinho-add {
+        height: 45px;
+        margin-top: 1.5rem;
+        width: 45px;
+    }
+    .controle-mais{
+        margin-right: 0.5rem;   
+        width: 15px;
+    }
+    .controle-menos{
+        margin-left: 0.5rem;
+        width: 15px;
     }
 }
 @media (min-width: 576px){
