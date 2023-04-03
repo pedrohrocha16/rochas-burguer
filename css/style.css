@@ -60,20 +60,21 @@
 .img-prod{
     width: 80px;
 }
-.btn-maisMenos {
-    border: none;
-    font-weight: 400;
-    height: 28px;
-    width: 28px;
+#btn-menos{
+    margin-right: 0.2rem;
+    width: 24px;
+}
+.controle-contador{
+    text-align: center;
+    width: 35px;
 }
 #btn-mais{
-    margin-left: 0.8rem;
-}
-#btn-menos{
-    margin-right: 0.8rem;
+    margin-left: 0.2rem;
+    width: 24px;
 }
 .remove-btn{
     height: 22px;
+    margin-left: 0.5rem;
     width: 22px;
 }
 .rodape{
@@ -126,6 +127,15 @@
         height: 45px;
         margin-top: 1.5rem;
         width: 45px;
+    }   
+}
+
+@media (min-width: 375px){
+    #btn-menos {
+        width: 30px;
+    }
+    #btn-mais {
+        width: 30px;
     }
 }
 
