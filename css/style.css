@@ -65,7 +65,7 @@
     border-radius: 10px;
     color: blue;
     height: 40px;
-    margin-right: 0.1rem;
+    margin-right: 0.3rem;
     text-align: center;
     width: 24px;
 }
@@ -76,19 +76,22 @@
     text-align: center;
     width: 35px;
 }
+.table td {
+    vertical-align: 0;
+}
 #btn-mais{
     border: none;
     border-radius: 10px;
     color: blue;
     height: 40px;
-    margin-left: 0.1rem;
+    margin-left: 0.3rem;
     text-align: center;
     width: 24px;
 }
 .remove-btn{
-    height: 22px;
+    height: 28px;
     margin-left: 0.5rem;
-    width: 22px;
+    width: 28px;
 }
 .rodape{
     align-items: center;
