@@ -63,18 +63,21 @@
 #btn-menos{
     border: none;
     border-radius: 10px;
+    height: 40px;
     margin-right: 0.1rem;
     width: 24px;
 }
 .controle-contador{
     border: none;
     border-radius: 10px;
+    height: 40px;
     text-align: center;
     width: 35px;
 }
 #btn-mais{
     border: none;
     border-radius: 10px;
+    height: 40px;
     margin-left: 0.1rem;
     width: 24px;
 }
