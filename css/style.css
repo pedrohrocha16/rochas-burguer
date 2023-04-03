@@ -61,15 +61,21 @@
     width: 80px;
 }
 #btn-menos{
-    margin-right: 0.2rem;
+    border: none;
+    border-radius: 10px;
+    margin-right: 0.1rem;
     width: 24px;
 }
 .controle-contador{
+    border: none;
+    border-radius: 10px;
     text-align: center;
     width: 35px;
 }
 #btn-mais{
-    margin-left: 0.2rem;
+    border: none;
+    border-radius: 10px;
+    margin-left: 0.1rem;
     width: 24px;
 }
 .remove-btn{
@@ -121,7 +127,6 @@
     }
     .carrinho-compras{
         border-radius: 25px;
-        margin: 0 0.675rem 0 0.675rem;
     }
     .carrinho-add {
         height: 45px;
@@ -136,6 +141,9 @@
     }
     #btn-mais {
         width: 30px;
+    }
+    .carrinho-compras{
+        margin: 0 0.675rem 0 0.675rem;
     }
 }
 
