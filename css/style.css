@@ -59,6 +59,7 @@
     flex-direction: column;
 }
 .img-prod{
+    padding-top: 2rem;
     width: 80px;
 }
 #btn-menos{
