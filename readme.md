@@ -1,13 +1,19 @@
 ## <h1><em>Olá pessoas!</em>😁</h1> 
 
 
-<h3>Projeto que estou desenvolvendo que serve de modelo para uma hamburgueria. Possui um menu interativo, carousel e um cardápio em grid. Veja:<h3>
+<h3>Projeto que estou desenvolvendo que serve de modelo para uma hamburgueria, que por sinal, é bem completo e intuitivo com o usuário. Logo, quando eu finalizar o projeto, o usuário irá conseguir adicionar os produtos no carrinho, conseguirá também, alterar a quantidade e até mesmo remover os produtos que foram selecionados. Veja:<h3>
 
 <img src ="img\preview3.png">
 <img src ="img\preview1.png">
-<img src= "img\preview2.png">
 
-<p>🌟 Obs: o projeto ainda está em andamento, tenho várias ideias para incrementar o site, aguardem! Esse será o meu foco, desenvolver esse projeto!</p>
+# 
+
+<img src= "img\preview2.png">
+<img src= "img\preview4.png">
+
+#
+
+<p>🌟 Obs: o projeto ainda está sendo desenvolvido com base nos meus conhecimentos adquiridos com JavaScript. Lembrando também, que o projeto é de minha autoria.</p>
 
 #
 

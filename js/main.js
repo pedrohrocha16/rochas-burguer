@@ -4,6 +4,12 @@ const finalizarCompra = document.querySelector('.btn-success')
 for (let i = 0; i < removerProdutosCarrinho.length; i++) {
     removerProdutosCarrinho[i].addEventListener('click', function(event){
         event.target.parentElement.parentElement.remove()
-    })
+    })  
+}
+
+const produtosCarrinho = document.querySelectorAll('.produtos-carrinho')
+
+for (let i = 0; i<produtosCarrinho.length; i++) {
+    console.log(produtosCarrinho[i])
     
 }
