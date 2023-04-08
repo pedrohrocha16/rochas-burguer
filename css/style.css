@@ -58,40 +58,31 @@
     display: flex;
     flex-direction: column;
 }
-.img-prod{
-    padding-top: 1rem;
-    width: 80px;
+#preco-produto-carrinho{
+    font-size: 13px;
+    color: #8b0000;
 }
-#btn-menos{
-    border: none;
-    border-radius: 10px;
-    color: blue;
-    height: 40px;
-    margin-right: 0.3rem;
-    width: 24px;
+.img-prod{
+    padding-top: 1.8rem;
+    width: 100px;
 }
 .controle-contador{
     border: none;
     border-radius: 10px;
     height: 40px;
     text-align: center;
-    width: 35px;
+    width: 50px;
 }
 .table td {
     vertical-align: 0px;
-}
-#btn-mais{
-    border: none;
-    border-radius: 10px;
-    color: blue;
-    height: 40px;
-    margin-left: 0.3rem;
-    width: 24px;
 }
 .remove-btn{
     height: 28px;
     margin-left: 0.5rem;
     width: 28px;
+}
+.vlrtotal-compra {
+    font-weight: 600;
 }
 #finalizar-compra {
     background: #03b103;
@@ -163,12 +154,6 @@
 }
 
 @media (min-width: 375px){
-    #btn-menos {
-        width: 30px;
-    }
-    #btn-mais {
-        width: 30px;
-    }
     .carrinho-compras{
         margin: 0 0.675rem 0 0.675rem;
     }
