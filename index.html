@@ -74,7 +74,7 @@
         <div class="card-body" id="card-body" style="display: flex;flex-direction: column;align-items: center;">
           <h5 class="card-title">Combo 01</h5>
           <p class="card-text">Pão artesanal com gergelim, hambúrguer 100g, salada, acompanha porção de batatas e dois molhos especiais!</p>
-          <p class="card-text" style="color: black; font-weight: bold;">R$ 35,00</p>
+          <p class="card-text produto-preco" style="color: black; font-weight: bold;">R$ 35,00</p>
           <img src="img/carrinho-add.png" alt="carrinho-add" class="carrinho-add">
         </div>
       </div>
@@ -83,7 +83,7 @@
         <div class="card-body" id="card-body" style="display: flex;flex-direction: column;align-items: center;">
           <h5 class="card-title">Combo 02</h5>
           <p class="card-text">Pão artesanal com gergelim, hambúrguer 120g, salada, acompanha porção de batatas!</p>
-          <p class="card-text" style="color: black; font-weight: bold;">R$ 35,00</p>
+          <p class="card-text produto-preco" style="color: black; font-weight: bold;">R$ 35,00</p>
           <img src="img/carrinho-add.png" alt="carrinho-add" class="carrinho-add">
         </div>
       </div>
@@ -92,7 +92,7 @@
         <div class="card-body" id="card-body" style="display: flex;flex-direction: column;align-items: center;">
           <h5 class="card-title">Combo 03</h5>
           <p class="card-text">Você pode escolher a opção um ou opção dois. Lembrando, que escolhendo uma opção, virá 2 sanduíches do tipo selecionado.</p>
-          <p class="card-text" style="color: black; font-weight: bold;">R$ 45,00</p>
+          <p class="card-text produto-preco" style="color: black; font-weight: bold;">R$ 45,00</p>
           <img src="img/carrinho-add.png" alt="carrinho-add" class="carrinho-add">
         </div>
       </div>
@@ -101,7 +101,7 @@
         <div class="card-body" id="card-body" style="display: flex;flex-direction: column;align-items: center;">
           <h5 class="card-title">Especial 01</h5>
           <p class="card-text">Pão brioche, dois hambúrguer 100g, cheddar ou mussarela, cebola, salada e acompanha uma deliciosa porção de batatas!</p>
-          <p class="card-text" style="color: black; font-weight: bold;">R$ 30,00</p>
+          <p class="card-text produto-preco" style="color: black; font-weight: bold;">R$ 30,00</p>
           <img src="img/carrinho-add.png" alt="carrinho-add" class="carrinho-add">
         </div>
       </div>
@@ -110,7 +110,7 @@
         <div class="card-body" id="card-body" style="display: flex;flex-direction: column;align-items: center;">
           <h5 class="card-title">Especial 02</h5>
           <p class="card-text">Pão brioche, dois hambúrguer 180g, cheddar ou mussarela e generosas fatias de bacon!</p>
-          <p class="card-text" style="color: black; font-weight: bold;">R$ 28,00</p>
+          <p class="card-text produto-preco" style="color: black; font-weight: bold;">R$ 28,00</p>
           <img src="img/carrinho-add.png" alt="carrinho-add" class="carrinho-add">
         </div>
       </div>
@@ -119,7 +119,7 @@
         <div class="card-body" id="card-body" style="display: flex;flex-direction: column;align-items: center;">
           <h5 class="card-title">Combo Especial 01</h5>
           <p class="card-text">Pão brioche, hambúrguer 180g, cheddar, cebola e salada. Acomapanha porção de batatas e uma coca lata.</p>
-          <p class="card-text" style="color: black; font-weight: bold;">R$ 40,00</p>
+          <p class="card-text produto-preco" style="color: black; font-weight: bold;">R$ 40,00</p>
           <img src="img/carrinho-add.png" alt="carrinho-add" class="carrinho-add">
         </div>
       </div>
@@ -128,7 +128,7 @@
         <div class="card-body" id="card-body" style="display: flex;flex-direction: column;align-items: center;">
           <h5 class="card-title">Combo Especial 02</h5>
           <p class="card-text">Pão brioche, 2 hambúrguer 180g, cheddar, mussarela e bacon. Acomapanha porção de batatas e uma coca lata.</p>
-          <p class="card-text" style="color: black; font-weight: bold;">R$ 45,00</p>
+          <p class="card-text produto-preco" style="color: black; font-weight: bold;">R$ 45,00</p>
           <img src="img/carrinho-add.png" alt="carrinho-add" class="carrinho-add">
         </div>
       </div>
@@ -142,7 +142,7 @@
     <!--Tabela-->
       <table class="table" style="font-size: 16px;">
         <thead class="thead-dark">
-          <tr>
+          <tr style="border-top: 2px solid #ff010180">
             <th scope="col">Produto</th>
             <th scope="col">Quantidade</th>
             <th scope="col"></th>
@@ -151,38 +151,16 @@
         </thead>
         <tbody>
           <tr class="produtos-carrinho">
-            <th id="img-descr-prod" style="border-top: none;"> 
+            <th id="img-descr-prod" style="border: none;"> 
               <img src="img/combo-01.jpg"class="img-prod">
               <p id="nome-produtoAdd" style="font-size: 13px;font-weight: 600;">Combo 01<br></p>
               <p id="preco-produto-carrinho">R$35,00</p>
             </th>
-              <td style="vertical-align: 0; border-top: none;">
+              <td style="vertical-align: 0; border: none;">
                 <input type="number" value="1" min="0" class="controle-contador"> 
               </td>
-            <td style="vertical-align: 0; border-top: none"><img src="img/remove.png" alt="remove-btn" class="remove-btn"></td>
+            <td style="vertical-align: 0; border-top: none"><img src="img/remove.png" alt="remove-btn" class="remove-btn" id="remove-btn"></td>
           </tr>
-          <tr class="produtos-carrinho">
-            <th id="img-descr-prod" style="border-top: none;"> 
-              <img src="img/combo-02.jpg"class="img-prod">
-              <p id="nome-produtoAdd" style="font-size: 13px;font-weight: 600;">Combo 02<br></p>
-              <p id="preco-produto-carrinho">R$45,00</p>
-            </th>
-              <td style="vertical-align: 0; border-top: none;">
-                <input type="number" value="1" min="0" class="controle-contador"> 
-              </td>
-            <td style="vertical-align: 0; border-top: none"><img src="img/remove.png" alt="remove-btn" class="remove-btn"></td>
-          </tr>  
-          <tr class="produtos-carrinho">
-            <th id="img-descr-prod" style="border-top: none;">
-              <img src="img/combo-especial01.jpg"class="img-prod">
-              <p id="nome-produtoAdd" style="font-size: 13px;font-weight: 600;">Combo esp 01<br></p>
-              <p id="preco-produto-carrinho">R$55,00</p>
-            </th>
-              <td style="vertical-align: 0; border-top: none;">
-                <input type="number" value="1" min="0" class="controle-contador"> 
-              </td>
-            <td style="vertical-align: 0; border-top: none" ><img src="img/remove.png" alt="remove-btn" class="remove-btn"></td>
-          </tr>    
         </tbody>
       </table>
       <div>
