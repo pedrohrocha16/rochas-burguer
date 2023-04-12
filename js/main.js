@@ -28,6 +28,17 @@ function addNoCarrinho(event){
     const productName = productInfo.getElementsByClassName('card-title')[0].innerText
     const productPrice = productInfo.getElementsByClassName('card-text produto-preco')[0].innerText
 
+    const productCartName = document.getElementsByClassName('nome-produto-carrinho')
+    for (var i = 0; i < productCartName.length; i++) {
+        if (productCartName[i].innerText == productName){
+            productCartName[i].parentElement.parentElement.getElementsByClassName('controle-contador')[0].value++
+            return
+        }     
+    }
+
+
+        
+
     let newCartProduct = document.createElement('tr')
     newCartProduct.classList.add('produtos-carrinho')
 
@@ -46,6 +57,8 @@ function addNoCarrinho(event){
 
     const tableBody = document.querySelector('.table tbody')
     tableBody.append(newCartProduct)
+
+    updateTotal()
 }
 
 function removeProduct (event){   
