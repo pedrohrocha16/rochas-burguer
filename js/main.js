@@ -49,10 +49,10 @@ function addNoCarrinho(event){
             <spam class="nome-produto-carrinho" style="font-size: 13px;font-weight: 600;">${productName}<br></spam>
             <spam id="preco-produto-carrinho" class="preco-produto-carrinho">${productPrice}</spam>
         </th>
-            <td style="vertical-align: 0; border: none;">
-            <input type="number" value="1" min="0" class="controle-contador"> 
+            <td style="border: none;">
+            <input type="number" value="1" min="0"  class="controle-contador" style="margin-top: 3rem"> 
             </td>
-            <td style="vertical-align: 0; border-top: none"><img src="img/remove.png" alt="remove-btn" class="remove-btn" id="remove-btn"></td>
+            <td style="border-top: none"><img src="img/remove.png" alt="remove-btn" class="remove-btn" id="remove-btn"></td>
     `
 
     const tableBody = document.querySelector('.table tbody')
