@@ -69,6 +69,9 @@
     padding-top: 1.8rem;
     width: 100px;
 }
+.carrinho-add {
+    cursor: pointer;
+}
 .controle-contador{
     border: none;
     border-radius: 10px;

@@ -55,9 +55,9 @@ function addNoCarrinho(event){
             <spam id="preco-produto-carrinho" class="preco-produto-carrinho">${productPrice}</spam>
         </th>
             <td style="border: none;">
-            <input type="number" value="1" min="0" class="controle-contador" style="margin-top: 3rem; text-align: center;""> 
+            <input type="number" value="1" min="0" class="controle-contador" style="margin-top: 3.5rem; text-align: center;""> 
             </td>
-            <td style="border-top: none"><img src="img/remove.png" alt="remove-btn" class="remove-btn" id="remove-btn"></td>
+            <td style="border-top: none"><button type="button" class="btn btn-danger remove-btn" style ="font-size: 17px; width: 40px; height: 40px;">X</button></td>
     `
 
     const tableBody = document.querySelector('.table tbody')
