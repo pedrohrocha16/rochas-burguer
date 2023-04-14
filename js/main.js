@@ -12,7 +12,7 @@ function ready(){
     } 
     const quantidInput = document.getElementsByClassName('controle-contador')
     for (let i = 0; i < quantidInput.length; i++) {
-       quantidInput[i].addEventListener('change', updateTotal)   
+       quantidInput[i].addEventListener('change', checkIsNull)   
     }
     const addToCartButtons = document.getElementsByClassName('carrinho-add')
     for (let i = 0; i < addToCartButtons.length; i++) {
@@ -20,6 +20,13 @@ function ready(){
     }
 }
 
+function checkIsNull (event){
+    if (event.target.value === '0'){
+        event.target.parentElement.parentElement.remove()
+    }
+
+    updateTotal()
+}
 
 function addNoCarrinho(event){
     const button = event.target
@@ -34,10 +41,9 @@ function addNoCarrinho(event){
             productCartName[i].parentElement.parentElement.getElementsByClassName('controle-contador')[0].value++
             return
         }     
-    }
+    }     
 
 
-        
 
     let newCartProduct = document.createElement('tr')
     newCartProduct.classList.add('produtos-carrinho')
@@ -46,11 +52,11 @@ function addNoCarrinho(event){
     ` 
         <th id="img-descr-prod" style="border: none;"> 
             <img src="${productImg}"class="img-prod">
-            <spam class="nome-produto-carrinho" style="font-size: 13px;font-weight: 600;">${productName}<br></spam>
+            <spam class="nome-produto-carrinho" style="font-size: 13px;font-weight: 600;">${productName}</spam>
             <spam id="preco-produto-carrinho" class="preco-produto-carrinho">${productPrice}</spam>
         </th>
             <td style="border: none;">
-            <input type="number" value="1" min="0"  class="controle-contador" style="margin-top: 3rem"> 
+            <input type="number" value="1" min="0" class="controle-contador" style="margin-top: 3rem; text-align: center;""> 
             </td>
             <td style="border-top: none"><img src="img/remove.png" alt="remove-btn" class="remove-btn" id="remove-btn"></td>
     `
@@ -59,6 +65,8 @@ function addNoCarrinho(event){
     tableBody.append(newCartProduct)
 
     updateTotal()
+    newCartProduct.getElementsByClassName('controle-contador')[0].addEventListener('change', checkIsNull)
+    newCartProduct.getElementsByClassName('remove-btn')[0].addEventListener('click', removeProduct)
 }
 
 function removeProduct (event){   
