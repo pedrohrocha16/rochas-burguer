@@ -39,6 +39,7 @@ function addNoCarrinho(event){
     for (var i = 0; i < productCartName.length; i++) {
         if (productCartName[i].innerText == productName){
             productCartName[i].parentElement.parentElement.getElementsByClassName('controle-contador')[0].value++
+            updateTotal()
             return
         }     
     }     
