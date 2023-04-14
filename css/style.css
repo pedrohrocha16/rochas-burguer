@@ -3,8 +3,10 @@
     font-family: 'Open Sans', sans-serif;    
 }
 .logo {
-    height: 195px;
-    width: 200px;
+    height: 160px;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    width: 170px;
 }
 .redes-sociais{
     margin-top: 2rem;
@@ -127,9 +129,8 @@
 /* responsividade */
 @media (min-width: 320px){
     .p-4{
-        align-content: stretch;
+        align-items: center;
         display: flex;
-        flex-direction: row;
         flex-wrap: wrap;
         height: 81vh;
         justify-content: space-around;
@@ -167,7 +168,9 @@
         grid-template-columns: 250px 250px;
         justify-content: center;
     }
-
+    .p-4{
+        height: 85vh;
+    }
 }
 @media (min-width: 710px){
     .p-4{

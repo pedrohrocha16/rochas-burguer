@@ -43,8 +43,6 @@ function addNoCarrinho(event){
         }     
     }     
 
-
-
     let newCartProduct = document.createElement('tr')
     newCartProduct.classList.add('produtos-carrinho')
 
