@@ -87,6 +87,6 @@ function updateTotal(){
     }
         totalCarrinho = totalCarrinho.toFixed(2)
         totalCarrinho = totalCarrinho.replace('.', ',')
-        document.querySelector('.vlrtotal-compra').innerText = "Total: R$: "+ totalCarrinho
+        document.querySelector('.vlrtotal-compra').innerText = "Total: R$ "+ totalCarrinho
     
 }
