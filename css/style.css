@@ -240,7 +240,7 @@
     }
     #card-deck{
         display: grid;
-        grid-template-columns: 300px 300px 300px;
+        grid-template-columns: 250px 250px 250px 250px;
     }
     .carrinho-compras {
         margin-left: 15rem;
@@ -249,8 +249,8 @@
 }
 @media (min-width: 1440px){
     #card-deck{
-        grid-template-columns: 400px 400px 400px;
-        margin-right: 10rem;
+        display: grid;
+        grid-template-columns: 285px 285px 285px 285px 285px;
     }
     .carrinho-compras{
         margin-left: 30rem;
@@ -259,8 +259,7 @@
 }
 @media (min-width: 1600px){
     #card-deck{
-        grid-template-columns: 500px 500px 500px;
-        margin-left: 10vw;
+        grid-template-columns: 350px 350px 350px 350px 350px;
     }
     .carrinho-compras{
         margin: 0 20rem 0 20rem;
